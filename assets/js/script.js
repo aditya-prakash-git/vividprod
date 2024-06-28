@@ -44,3 +44,23 @@ window.addEventListener("scroll", function () {
   }
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const text = "At Vivid Productions, we bring your creative ideas to life with unparalleled precision and flair. Our expert team specializes in delivering stunning visual experiences that captivate and inspire. Let us turn your vision into a vivid reality.";
+  const heroText = document.querySelector('.hero-text');
+  let i = 0;
+
+  function typeWriter() {
+    if (i < text.length) {
+      heroText.innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, 50); // Adjust typing speed here
+    } else {
+      heroText.style.borderRight = 'none'; // Remove the cursor when typing is complete
+    }
+  }
+
+  // Clear the existing text and start the typewriter effect
+  heroText.innerHTML = '';
+  typeWriter();
+});

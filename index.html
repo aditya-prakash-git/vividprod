@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tourly - Travel agancy</title>
+  <title>Vivid Productions</title>
 
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -40,7 +40,7 @@
     <div class="header-top">
       <div class="container">
 
-        <a href="tel:+01123456790" class="helpline-box">
+        <a href="tel:+1 (587) 893-6560" class="helpline-box">
 
           <div class="icon-box">
             <ion-icon name="call-outline"></ion-icon>
@@ -49,13 +49,13 @@
           <div class="wrapper">
             <p class="helpline-title">For Further Inquires :</p>
 
-            <p class="helpline-number">+01 (123) 4567 90</p>
+            <p class="helpline-number">+1 (587) 893-6560</p>
           </div>
 
         </a>
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" alt="Tourly logo">
+          <img src="./assets/images/vivid-logo.jpg" alt="Tourly logo">
         </a>
 
         <div class="header-btn-group">
@@ -103,7 +103,7 @@
           <div class="navbar-top">
 
             <a href="#" class="logo">
-              <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
+              <img src="./assets/images/vivid-logo.jpg" alt="VP logo">
             </a>
 
             <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
@@ -120,14 +120,6 @@
 
             <li>
               <a href="#" class="navbar-link" data-nav-link>about us</a>
-            </li>
-
-            <li>
-              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
-            </li>
-
-            <li>
-              <a href="#package" class="navbar-link" data-nav-link>packages</a>
             </li>
 
             <li>
@@ -163,17 +155,15 @@
       <section class="hero" id="home">
         <div class="container">
           <video autoplay muted loop playsinline id="heroVideo">
-            <source src="./assets/images/hero-vid.mp4" type="video/mp4">
+            <source src="./assets/images/hero-ban-vid.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
 
 
-          <h2 class="h1 hero-title">Journey to explore world</h2>
+          <h2 class="h1 hero-title">Transforming Visions into Reality</h2>
 
           <p class="hero-text">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
-            voluptatibus habitant?
-            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+            At Vivid Productions, we bring your creative ideas to life with unparalleled precision and flair. Our expert team specializes in delivering stunning visual experiences that captivate and inspire. Let us turn your vision into a vivid reality.
           </p>
 
           <div class="btn-group">
@@ -193,40 +183,48 @@
         - #TOUR SEARCH
       -->
 
-      <section class="tour-search">
+      <section class="services-section" style="padding-top: 20px;">
         <div class="container">
-
-          <form action="" class="tour-search-form">
-
-            <div class="input-wrapper">
-              <label for="destination" class="input-label">Search Destination*</label>
-
-              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
-                class="input-field">
+          <div class="services-grid">
+            <div class="service-card">
+              <video class="background-video" autoplay loop muted playsinline>
+                <source src="./assets/images/cine 1.mp4" type="video/mp4">
+              </video>
+              <div class="service-content">
+                <h3 class="service-title">Cinematic Video Production</h3>
+                <p>Craft breathtaking stories with our cinematic video production services. From concept to final cut, we transform your vision into a visual masterpiece, ensuring every frame leaves a lasting impression.</p>
+              </div>
             </div>
-
-            <div class="input-wrapper">
-              <label for="people" class="input-label">Pax Number*</label>
-
-              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            <div class="service-card">
+              <video class="background-video" autoplay loop muted playsinline>
+                <source src="./assets/images/cine 2.mp4" type="video/mp4">
+              </video>
+              <div class="service-content">
+                <h3 class="service-title">Dynamic Motion Graphics</h3>
+                <p>Elevate your brand with our dynamic motion graphics. Our animations add a new dimension to your content, making it engaging, memorable, and visually striking.</p>
+              </div>
             </div>
-
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Checkin Date**</label>
-
-              <input type="date" name="checkin" id="checkin" required class="input-field">
+            <div class="service-card">
+              <video class="background-video" autoplay loop muted playsinline>
+                <source src="./assets/images/cine 2.mp4" type="video/mp4">
+              </video>
+              <div class="service-content">
+                <h3 class="service-title">Professional Photography</h3>
+                <p>Elevate your brand with our dynamic motion graphics. Our animations add a new dimension to your content, making it engaging, memorable, and visually striking.</p>
+              </div>
             </div>
-
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Checkout Date*</label>
-
-              <input type="date" name="checkout" id="checkout" required class="input-field">
+            <div class="service-card">
+              <video class="background-video" autoplay loop muted playsinline>
+                <source src="./assets/images/cine 2.mp4" type="video/mp4">
+              </video>
+              <div class="service-content">
+                <h3 class="service-title">Dynamic Motion Graphics</h3>
+                <p>Elevate your brand with our dynamic motion graphics. Our animations add a new dimension to your content, making it engaging, memorable, and visually striking.</p>
+              </div>
             </div>
-
+            <!-- Repeat for the other two cards -->
             <button type="submit" class="btn btn-secondary">Inquire now</button>
-
-          </form>
-
+          </div>
         </div>
       </section>
 
