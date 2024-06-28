@@ -402,6 +402,7 @@ body { background: var(--white); }
   object-fit: cover;
   transform: translate(-50%, -50%);
   z-index: -1; /* Ensure the video is behind the content */
+  
 }
 .hero-title { margin-bottom: 20px; }
 
