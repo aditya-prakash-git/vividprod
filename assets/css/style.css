@@ -175,7 +175,11 @@ body { background: var(--white); }
   color: var(--white);
   font-size: var(--fs-1);
 }
-
+@media only screen and (max-width: 768px) {
+  .h1 {
+    font-size: var(--fs-small); /* Adjusted font size for mobile */
+  }
+}
 .h2,
 .h3 { color: var(--gunmetal); }
 
@@ -410,10 +414,16 @@ body { background: var(--white); }
   color: var(--white);
   font-size: var(--fs-5);
   font-family: 'Courier New', Courier, monospace;
+  font-weight: 400; /* Adjust font weight as needed */
   margin-bottom: 40px;
   border-right: 2px solid var(--white);
   overflow: hidden;
-  max-width: 100%; 
+  max-width: 100%;
+}
+
+.hero-text.josefin-sans {
+  font-family: 'Josefin Sans', sans-serif; /* Apply Josefin Sans font */
+  font-weight: 400; /* Adjust font weight as needed */
 }
 
 .hero-text::after {
@@ -1449,4 +1459,10 @@ cssCopy.services-section {
     padding: 10px 15px;
     font-size: 12px;
   }
+}
+.josefin-sans{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100; /* Replace <weight> with desired value (100-700) */
+  font-style: normal;
 }
