@@ -187,7 +187,7 @@ body { background: var(--white); }
 }
 
 .section-subtitle {
-  color: var(--bright-navy-blue);
+  color: var(--red-hehe);
   font-size: var(--fs-5);
   text-transform: uppercase;
   font-family: var(--ff-montserrat);
@@ -623,7 +623,7 @@ body { background: var(--white); }
 }
 
 .package-card .card-price {
-  background: var(--united-nations-blue);
+  background: var(--black);
   color: var(--white);
   padding: 25px 20px;
   text-align: center;
@@ -728,7 +728,7 @@ body { background: var(--white); }
 
 .footer-brand { margin-bottom: 30px; }
 
-.footer-brand img { width: 180px; }
+.footer-brand img { width: 100px; }
 
 .footer-brand .logo { margin-bottom: 20px; }
 
