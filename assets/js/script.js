@@ -64,3 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
   heroText.innerHTML = '';
   typeWriter();
 });
+
+
+  
+  
+ 
+  
